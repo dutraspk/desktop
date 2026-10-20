@@ -1,0 +1,186 @@
+18:05:32.607: Platform: Wayland
+18:05:32.607: CPU Name: AMD Ryzen 5 5600 6-Core Processor
+18:05:32.607: CPU Speed: 4442.104MHz
+18:05:32.608: Physical Cores: 6, Logical Cores: 12
+18:05:32.608: Physical Memory: 15905MB Total, 5790MB Free
+18:05:32.608: Kernel Version: Linux 7.1.3-1-cachyos
+18:05:32.608: Distribution: "CachyOS Linux" Unknown
+18:05:32.608: Desktop Environment: Hyprland (Hyprland)
+18:05:32.608: Session Type: wayland
+18:05:32.608: Current Date/Time: 2026-07-08, 18:05:32
+18:05:32.608: Browser Hardware Acceleration: true
+18:05:32.608: Qt Version: 6.11.1 (runtime), 6.11.1 (compiled)
+18:05:32.608: Portable mode: false
+18:05:32.632: OBS 32.1.2 (linux)
+18:05:32.632: ---------------------------------
+18:05:32.633: ---------------------------------
+18:05:32.633: audio settings reset:
+18:05:32.633: 	samples per sec: 48000
+18:05:32.633: 	speakers:        2
+18:05:32.633: 	max buffering:   960 milliseconds
+18:05:32.633: 	buffering type:  dynamically increasing
+18:05:32.634: ---------------------------------
+18:05:32.634: Initializing OpenGL...
+18:05:32.634: Using EGL/Wayland
+18:05:32.659: Initialized EGL 1.5
+18:05:32.673: Loading up OpenGL on adapter AMD AMD Radeon RX 570 Series (radeonsi, polaris10, ACO, DRM 3.64, 7.1.3-1-cachyos)
+18:05:32.673: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 26.1.4-arch3.1, shading language 4.60
+18:05:32.695: ---------------------------------
+18:05:32.695: video settings reset:
+18:05:32.695: 	base resolution:   1920x1080
+18:05:32.695: 	output resolution: 1920x1080
+18:05:32.695: 	downscale filter:  Bicubic
+18:05:32.695: 	fps:               60/1
+18:05:32.695: 	format:            NV12
+18:05:32.695: 	YUV mode:          Rec. 709/Partial
+18:05:32.695: NV12 texture support enabled
+18:05:32.695: P010 texture support not available
+18:05:32.696: Audio monitoring device:
+18:05:32.696: 	name: Padrão
+18:05:32.696: 	id: default
+18:05:32.697: ---------------------------------
+18:05:32.697: Failed to load 'en-US' text for module: 'decklink-captions.so'
+18:05:32.698: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+18:05:32.699: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+18:05:32.699: Failed to initialize module 'decklink.so'
+18:05:32.783: [pipewire] Available capture sources:
+18:05:32.783: [pipewire]     - Monitor source
+18:05:32.783: [pipewire]     - Window source
+18:05:32.800: VAAPI: API version 1.24
+18:05:32.801: FFmpeg VAAPI H264 encoding supported
+18:05:32.804: FFmpeg VAAPI AV1 encoding not supported
+18:05:32.807: FFmpeg VAAPI HEVC encoding supported
+18:05:32.809: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+18:05:32.809: 
+18:05:32.809: NVENC not supported
+18:05:32.809: Failed to initialize module 'obs-nvenc.so'
+18:05:32.824: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.7.3 | RPC Version: 1)
+18:05:32.824: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.11.1 | Qt version (run-time): 6.11.1
+18:05:32.824: [obs-websocket] [obs_module_load] Linked ASIO Version: 103800
+18:05:32.827: [obs-websocket] [obs_module_load] Module loaded.
+18:05:32.829: ---------------------------------
+18:05:32.829:   Loaded Modules:
+18:05:32.829:     text-freetype2.so
+18:05:32.829:     rtmp-services.so
+18:05:32.829:     obs-x264.so
+18:05:32.829:     obs-websocket.so
+18:05:32.829:     obs-webrtc.so
+18:05:32.829:     obs-vst.so
+18:05:32.829:     obs-transitions.so
+18:05:32.829:     obs-qsv11.so
+18:05:32.829:     obs-outputs.so
+18:05:32.829:     obs-libfdk.so
+18:05:32.829:     obs-filters.so
+18:05:32.829:     obs-ffmpeg.so
+18:05:32.829:     linux-v4l2.so
+18:05:32.829:     linux-pulseaudio.so
+18:05:32.829:     linux-pipewire.so
+18:05:32.829:     linux-jack.so
+18:05:32.829:     linux-capture.so
+18:05:32.829:     linux-alsa.so
+18:05:32.829:     image-source.so
+18:05:32.829:     frontend-tools.so
+18:05:32.829:     decklink-output-ui.so
+18:05:32.829:     decklink-captions.so
+18:05:32.829: ---------------------------------
+18:05:32.829: ---------------------------------
+18:05:32.829: Available Encoders:
+18:05:32.829:   Video Encoders:
+18:05:32.829: 	- ffmpeg_svt_av1 (SVT-AV1)
+18:05:32.829: 	- ffmpeg_aom_av1 (AOM AV1)
+18:05:32.829: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+18:05:32.829: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+18:05:32.829: 	- obs_x264 (x264)
+18:05:32.829:   Audio Encoders:
+18:05:32.829: 	- ffmpeg_aac (FFmpeg AAC)
+18:05:32.829: 	- ffmpeg_opus (FFmpeg Opus)
+18:05:32.829: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+18:05:32.829: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+18:05:32.829: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+18:05:32.829: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+18:05:32.829: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+18:05:32.829: 	- libfdk_aac (libfdk AAC)
+18:05:32.829: ==== Startup complete ===============================================
+18:05:32.847: Failed to register with host portal QDBusError("org.freedesktop.portal.Error.Failed", "Could not register app ID: Connection already associated with an application ID")
+18:05:32.847: All scene data cleared
+18:05:32.847: ------------------------------------------------
+18:05:32.851: Device for 'Audio Output Capture' source Áudio do desktop is also used for audio monitoring.
+18:05:32.851: Deduplication logic is being applied to all monitored sources.
+18:05:32.851: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.7) 15.0.0'
+18:05:32.851: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+18:05:32.851: pulse-input: Started recording from 'alsa_output.pci-0000_07_00.4.analog-stereo.monitor' (default)
+18:05:32.851: [Loaded global audio device]: 'Áudio do desktop'
+18:05:32.851: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.7) 15.0.0'
+18:05:32.851: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+18:05:32.851: pulse-input: Started recording from 'alsa_input.pci-0000_07_00.4.analog-stereo' (default)
+18:05:32.852: [Loaded global audio device]: 'Mic/Aux'
+18:05:32.853: Switched to scene 'Cena'
+18:05:32.853: ------------------------------------------------
+18:05:32.853: Loaded scenes:
+18:05:32.853: - scene 'Cena':
+18:05:32.853:     - source: 'Dispositivo de captura de vídeo (PipeWire) (BETA)' (pipewire-camera-source)
+18:05:32.853: ------------------------------------------------
+18:05:32.866: Device for 'Audio Output Capture' source Áudio do desktop is also used for audio monitoring.
+18:05:32.866: Deduplication logic is being applied to all monitored sources.
+18:05:32.887: [camera-portal] Successfully accessed cameras
+18:05:32.914: [pipewire] Server version: 1.6.7
+18:05:32.914: [pipewire] Library version: 1.6.7
+18:05:32.914: [pipewire] Header version: 1.6.7
+18:05:32.914: [pipewire] Created registry 0x55d5ddb27860
+18:05:32.914: [camera-portal] Found device Dummy-Driver
+18:05:32.914: [camera-portal] Found device Freewheel-Driver
+18:05:32.914: [camera-portal] Found device Midi-Bridge
+18:05:32.914: [camera-portal] Found device alsa_output.pci-0000_05_00.1.hdmi-stereo-extra2
+18:05:32.914: [camera-portal] Found device alsa_input.usb-BC-231212-ZW_USB_Camera-02.mono-fallback
+18:05:32.914: [camera-portal] streaming camera 'alsa_input.usb-BC-231212-ZW_USB_Camera-02.mono-fallback'
+18:05:32.914: [pipewire] Created stream 0x7faab4004820
+18:05:32.914: [pipewire] Stream 0x7faab4004820 state: "connecting" (error: none)
+18:05:32.915: [pipewire] Playing stream 0x7faab4004820
+18:05:32.915: [camera-portal] Found device alsa_output.pci-0000_07_00.4.analog-stereo
+18:05:32.915: [camera-portal] Found device alsa_input.pci-0000_07_00.4.analog-stereo
+18:05:32.915: [camera-portal] Found device v4l2_input.pci-0000_07_00.3-usb-0_1_1.0
+18:05:32.915: [camera-portal] Found device bluez_midi.server
+18:05:32.915: [camera-portal] Found device alsa_playback.resolve
+18:05:32.915: [camera-portal] Found device alsa_capture.resolve
+18:05:32.915: [camera-portal] Found device OBS
+18:05:32.915: [camera-portal] Found device OBS
+18:05:32.915: [pipewire] Stream 0x7faab4004820 state: "paused" (error: none)
+18:05:32.915: [camera-portal] Found device obs
+18:05:33.046: [pipewire] Negotiated format:
+18:05:33.046: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+18:05:33.046: [pipewire]     Size: 640x480
+18:05:33.046: [pipewire]     Framerate: 30/1
+18:05:33.055: [pipewire] Stream 0x7faab4004820 state: "streaming" (error: none)
+18:05:33.401: adding 42 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Áudio do desktop)
+18:05:33.401: 
+18:06:45.830: PipeWire initialized
+18:06:45.832: User added source 'Captura de monitor (PipeWire)' (pipewire-screen-capture-source) to scene 'Cena'
+18:06:45.841: [pipewire] Screencast session created
+18:06:49.934: PipeWire initialized
+18:06:57.190: User Removed source 'Captura de monitor (PipeWire)' (pipewire-screen-capture-source) from scene 'Cena'
+18:06:57.191: [portals] Request cancelled
+18:07:03.494: PipeWire initialized
+18:07:03.496: User added source 'Captura de monitor (PipeWire)' (pipewire-screen-capture-source) to scene 'Cena'
+18:07:06.774: PipeWire initialized
+18:07:15.130: [pipewire] Stream 0x7faab4004820 state: "paused" (error: none)
+18:07:28.494: [pipewire] Error creating screencast session: O tempo limite foi alcançado
+18:07:31.774: [pipewire] Error creating screencast session: O tempo limite foi alcançado
+18:09:09.914: ==== Shutting down ==================================================
+18:09:09.916: pulse-input: Stopped recording from 'alsa_output.pci-0000_07_00.4.analog-stereo.monitor'
+18:09:09.916: pulse-input: Got 8682 packets with 10418400 frames
+18:09:09.916: Deduplication logic stopped.
+18:09:09.916: pulse-input: Stopped recording from 'alsa_input.pci-0000_07_00.4.analog-stereo'
+18:09:09.916: pulse-input: Got 8682 packets with 10418400 frames
+18:09:09.916: [pipewire] Stream 0x7faab4004820 state: "unconnected" (error: none)
+18:09:09.918: [portals] Request cancelled
+18:09:09.918: [pipewire-camera] Removed device OBS
+18:09:09.918: [pipewire-camera] Removed device obs
+18:09:09.937: All scene data cleared
+18:09:09.937: ------------------------------------------------
+18:09:09.939: Tried to call obs_frontend_remove_event_callback with no callbacks!
+18:09:09.978: [obs-websocket] [obs_module_unload] Shutting down...
+18:09:09.978: Tried to call obs_frontend_remove_event_callback with no callbacks!
+18:09:09.978: [obs-websocket] [obs_module_unload] Finished shutting down.
+18:09:09.978: [pipewire] Error id:0 seq:162 res:-2 (Arquivo ou diretório inexistente): unknown resource 14 op:7
+18:09:09.983: [Scripting] Total detached callbacks: 0
+18:09:09.983: Freeing OBS context data

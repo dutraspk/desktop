@@ -1,0 +1,625 @@
+18:29:39.661: Platform: Wayland
+18:29:39.661: CPU Name: AMD Ryzen 5 5600 6-Core Processor
+18:29:39.661: CPU Speed: 3572.175MHz
+18:29:39.662: Physical Cores: 6, Logical Cores: 12
+18:29:39.662: Physical Memory: 15905MB Total, 4018MB Free
+18:29:39.662: Kernel Version: Linux 7.1.3-1-cachyos
+18:29:39.662: Distribution: "CachyOS Linux" Unknown
+18:29:39.662: Desktop Environment: Hyprland (Hyprland)
+18:29:39.662: Session Type: wayland
+18:29:39.663: Current Date/Time: 2026-07-12, 18:29:39
+18:29:39.663: Browser Hardware Acceleration: true
+18:29:39.663: Qt Version: 6.11.1 (runtime), 6.11.1 (compiled)
+18:29:39.663: Portable mode: false
+18:29:39.697: OBS 32.1.2 (linux)
+18:29:39.697: ---------------------------------
+18:29:39.698: ---------------------------------
+18:29:39.698: audio settings reset:
+18:29:39.698: 	samples per sec: 48000
+18:29:39.698: 	speakers:        2
+18:29:39.698: 	max buffering:   960 milliseconds
+18:29:39.698: 	buffering type:  dynamically increasing
+18:29:39.699: ---------------------------------
+18:29:39.699: Initializing OpenGL...
+18:29:39.699: Using EGL/Wayland
+18:29:39.745: Initialized EGL 1.5
+18:29:39.760: Loading up OpenGL on adapter AMD AMD Radeon RX 570 Series (radeonsi, polaris10, ACO, DRM 3.64, 7.1.3-1-cachyos)
+18:29:39.760: OpenGL loaded successfully, version 4.6 (Core Profile) Mesa 26.1.4-arch3.1, shading language 4.60
+18:29:39.803: ---------------------------------
+18:29:39.803: video settings reset:
+18:29:39.803: 	base resolution:   1920x1080
+18:29:39.803: 	output resolution: 1920x1080
+18:29:39.803: 	downscale filter:  Bicubic
+18:29:39.803: 	fps:               60/1
+18:29:39.803: 	format:            NV12
+18:29:39.803: 	YUV mode:          Rec. 709/Partial
+18:29:39.804: NV12 texture support enabled
+18:29:39.804: P010 texture support not available
+18:29:39.807: Audio monitoring device:
+18:29:39.807: 	name: Padrão
+18:29:39.807: 	id: default
+18:29:39.808: ---------------------------------
+18:29:39.810: Failed to load 'en-US' text for module: 'decklink-captions.so'
+18:29:39.811: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+18:29:39.813: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+18:29:39.813: Failed to initialize module 'decklink.so'
+18:29:39.930: [pipewire] Available capture sources:
+18:29:39.930: [pipewire]     - Monitor source
+18:29:39.930: [pipewire]     - Window source
+18:29:39.974: VAAPI: API version 1.24
+18:29:39.974: FFmpeg VAAPI H264 encoding supported
+18:29:39.977: FFmpeg VAAPI AV1 encoding not supported
+18:29:39.981: FFmpeg VAAPI HEVC encoding supported
+18:29:39.987: os_dlopen(libnvidia-encode.so.1->libnvidia-encode.so.1): libnvidia-encode.so.1: não é possível abrir arquivo compartilhado: Arquivo ou diretório inexistente
+18:29:39.987: 
+18:29:39.987: NVENC not supported
+18:29:39.987: Failed to initialize module 'obs-nvenc.so'
+18:29:40.013: [obs-websocket] [obs_module_load] you can haz websockets (Version: 5.7.3 | RPC Version: 1)
+18:29:40.013: [obs-websocket] [obs_module_load] Qt version (compile-time): 6.11.1 | Qt version (run-time): 6.11.1
+18:29:40.013: [obs-websocket] [obs_module_load] Linked ASIO Version: 103800
+18:29:40.018: [obs-websocket] [obs_module_load] Module loaded.
+18:29:40.023: ---------------------------------
+18:29:40.023:   Loaded Modules:
+18:29:40.023:     text-freetype2.so
+18:29:40.023:     rtmp-services.so
+18:29:40.023:     obs-x264.so
+18:29:40.023:     obs-websocket.so
+18:29:40.023:     obs-webrtc.so
+18:29:40.023:     obs-vst.so
+18:29:40.023:     obs-transitions.so
+18:29:40.023:     obs-qsv11.so
+18:29:40.023:     obs-outputs.so
+18:29:40.023:     obs-libfdk.so
+18:29:40.023:     obs-filters.so
+18:29:40.023:     obs-ffmpeg.so
+18:29:40.023:     linux-v4l2.so
+18:29:40.023:     linux-pulseaudio.so
+18:29:40.023:     linux-pipewire.so
+18:29:40.023:     linux-jack.so
+18:29:40.023:     linux-capture.so
+18:29:40.023:     linux-alsa.so
+18:29:40.023:     image-source.so
+18:29:40.023:     frontend-tools.so
+18:29:40.023:     decklink-output-ui.so
+18:29:40.023:     decklink-captions.so
+18:29:40.023: ---------------------------------
+18:29:40.024: ---------------------------------
+18:29:40.024: Available Encoders:
+18:29:40.024:   Video Encoders:
+18:29:40.024: 	- ffmpeg_svt_av1 (SVT-AV1)
+18:29:40.024: 	- ffmpeg_aom_av1 (AOM AV1)
+18:29:40.024: 	- ffmpeg_vaapi_tex (FFmpeg VAAPI H.264)
+18:29:40.024: 	- hevc_ffmpeg_vaapi_tex (FFmpeg VAAPI HEVC)
+18:29:40.024: 	- obs_x264 (x264)
+18:29:40.024:   Audio Encoders:
+18:29:40.024: 	- ffmpeg_aac (FFmpeg AAC)
+18:29:40.024: 	- ffmpeg_opus (FFmpeg Opus)
+18:29:40.024: 	- ffmpeg_pcm_s16le (FFmpeg PCM (16-bit))
+18:29:40.024: 	- ffmpeg_pcm_s24le (FFmpeg PCM (24-bit))
+18:29:40.024: 	- ffmpeg_pcm_f32le (FFmpeg PCM (32-bit float))
+18:29:40.024: 	- ffmpeg_alac (FFmpeg ALAC (24-bit))
+18:29:40.024: 	- ffmpeg_flac (FFmpeg FLAC (16-bit))
+18:29:40.024: 	- libfdk_aac (libfdk AAC)
+18:29:40.024: ==== Startup complete ===============================================
+18:29:40.062: Failed to register with host portal QDBusError("org.freedesktop.portal.Error.Failed", "Could not register app ID: Connection already associated with an application ID")
+18:29:40.062: All scene data cleared
+18:29:40.062: ------------------------------------------------
+18:29:40.067: Device for 'Audio Output Capture' source Áudio do desktop is also used for audio monitoring.
+18:29:40.067: Deduplication logic is being applied to all monitored sources.
+18:29:40.067: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.7) 15.0.0'
+18:29:40.067: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+18:29:40.067: pulse-input: Started recording from 'alsa_output.pci-0000_07_00.4.analog-stereo.monitor' (default)
+18:29:40.067: [Loaded global audio device]: 'Áudio do desktop'
+18:29:40.067: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.7) 15.0.0'
+18:29:40.067: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+18:29:40.067: pulse-input: Started recording from 'alsa_input.pci-0000_07_00.4.analog-stereo' (default)
+18:29:40.067: [Loaded global audio device]: 'Mic/Aux'
+18:29:40.068: PipeWire initialized
+18:29:40.069: Switched to scene 'Cena'
+18:29:40.069: ------------------------------------------------
+18:29:40.069: Loaded scenes:
+18:29:40.069: - scene 'Cena':
+18:29:40.069:     - source: 'Dispositivo de captura de vídeo (PipeWire) (BETA)' (pipewire-camera-source)
+18:29:40.069:     - source: 'Captura de monitor (PipeWire)' (pipewire-screen-capture-source)
+18:29:40.069: ------------------------------------------------
+18:29:40.079: Device for 'Audio Output Capture' source Áudio do desktop is also used for audio monitoring.
+18:29:40.079: Deduplication logic is being applied to all monitored sources.
+18:29:40.113: [camera-portal] Successfully accessed cameras
+18:29:40.113: [pipewire] Screencast session created
+18:29:40.158: [pipewire] Server version: 1.6.7
+18:29:40.158: [pipewire] Library version: 1.6.7
+18:29:40.158: [pipewire] Header version: 1.6.7
+18:29:40.158: [pipewire] Created registry 0x55f4333e11a0
+18:29:40.158: [camera-portal] Found device Dummy-Driver
+18:29:40.158: [camera-portal] Found device Freewheel-Driver
+18:29:40.158: [camera-portal] Found device Midi-Bridge
+18:29:40.158: [camera-portal] Found device bluez_midi.server
+18:29:40.158: [camera-portal] Found device alsa_output.pci-0000_05_00.1.hdmi-stereo-extra2
+18:29:40.158: [camera-portal] Found device alsa_input.usb-BC-231212-ZW_USB_Camera-02.mono-fallback
+18:29:40.158: [camera-portal] streaming camera 'alsa_input.usb-BC-231212-ZW_USB_Camera-02.mono-fallback'
+18:29:40.158: [pipewire] Created stream 0x7f5f4c004e20
+18:29:40.158: [pipewire] Stream 0x7f5f4c004e20 state: "connecting" (error: none)
+18:29:40.160: [pipewire] Playing stream 0x7f5f4c004e20
+18:29:40.160: [camera-portal] Found device alsa_output.pci-0000_07_00.4.analog-stereo
+18:29:40.160: [camera-portal] Found device alsa_input.pci-0000_07_00.4.analog-stereo
+18:29:40.160: [camera-portal] Found device v4l2_input.pci-0000_07_00.3-usb-0_1_1.0
+18:29:40.160: [camera-portal] Found device SDL Application
+18:29:40.160: [camera-portal] Found device Firefox
+18:29:40.160: [camera-portal] Found device kdenlive
+18:29:40.160: [camera-portal] Found device OBS
+18:29:40.160: [camera-portal] Found device OBS
+18:29:40.161: [pipewire] Stream 0x7f5f4c004e20 state: "paused" (error: none)
+18:29:40.161: [camera-portal] Found device obs
+18:29:40.490: [pipewire] Negotiated format:
+18:29:40.490: [pipewire]     Format: 4 (Spa:Enum:VideoFormat:YUY2)
+18:29:40.490: [pipewire]     Size: 640x480
+18:29:40.490: [pipewire]     Framerate: 30/1
+18:29:40.490: [pipewire] Stream 0x7f5f4c004e20 state: "streaming" (error: none)
+18:29:40.615: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Áudio do desktop)
+18:29:40.615: 
+18:29:40.957: [rtmp-services plugin] Successfully updated file 'services.json' (version 286)
+18:29:40.957: [rtmp-services plugin] Successfully updated package (version 286)
+18:29:41.584: [pipewire] Asking for monitor and window
+18:29:41.588: [camera-portal] Found device xdg-desktop-portal-hyprland
+18:29:41.588: [pipewire] source selected, setting up screencast
+18:29:41.590: [pipewire] Server version: 1.6.7
+18:29:41.590: [pipewire] Library version: 1.6.7
+18:29:41.590: [pipewire] Header version: 1.6.7
+18:29:41.590: [pipewire] Created stream 0x55f432aa3d60
+18:29:41.590: [pipewire] Stream 0x55f432aa3d60 state: "connecting" (error: none)
+18:29:41.590: [pipewire] Playing stream 0x55f432aa3d60
+18:29:41.590: [pipewire] Stream 0x55f432aa3d60 state: "paused" (error: none)
+18:29:41.590: [camera-portal] Found device obs
+18:29:41.590: [pipewire] Error id:19 seq:167 res:-2 (Arquivo ou diretório inexistente): enum params id:16 (Spa:Enum:ParamId:ProcessLatency) failed
+18:29:41.601: [pipewire] Negotiated format:
+18:29:41.601: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+18:29:41.601: [pipewire]     Modifier: 0x0
+18:29:41.601: [pipewire]     Size: 1920x1080
+18:29:41.601: [pipewire]     Framerate: 0/1
+18:29:41.603: [pipewire] Negotiated format:
+18:29:41.603: [pipewire]     Format: 12 (Spa:Enum:VideoFormat:BGRA)
+18:29:41.603: [pipewire]     Modifier: 0xffffffffffffff
+18:29:41.603: [pipewire]     Size: 1920x1080
+18:29:41.603: [pipewire]     Framerate: 0/1
+18:29:41.610: [pipewire] Stream 0x55f432aa3d60 state: "streaming" (error: none)
+18:29:52.751: Device for 'Audio Output Capture' source Captura de saída de áudio (PulseAudio) is also used for audio monitoring.
+18:29:52.751: Deduplication logic is being applied to all monitored sources.
+18:29:52.751: pulse-input: Server name: 'PulseAudio (on PipeWire 1.6.7) 15.0.0'
+18:29:52.751: pulse-input: Audio format: s32le, 48000 Hz, 2 channels
+18:29:52.751: pulse-input: Started recording from 'alsa_output.pci-0000_07_00.4.analog-stereo.monitor' (default)
+18:29:52.752: [camera-portal] Found device OBS
+18:29:52.753: User added source 'Captura de saída de áudio (PulseAudio)' (pulse_output_capture) to scene 'Cena'
+18:29:52.760: Device for 'Audio Output Capture' source Captura de saída de áudio (PulseAudio) is also used for audio monitoring.
+18:29:52.760: Deduplication logic is being applied to all monitored sources.
+18:30:09.303: pulse-am: Server name: 'PulseAudio (on PipeWire 1.6.7) 15.0.0'
+18:30:09.303: pulse-am: Audio format: s32le, 48000 Hz, 2 channels
+18:30:09.303: pulse-am: Started Monitoring in 'alsa_output.pci-0000_07_00.4.analog-stereo'
+18:30:09.304: [camera-portal] Found device OBS-Monitor
+18:30:22.051: User added filter 'Compressor' (compressor_filter) to source 'Mic/Aux'
+18:30:54.629: User added filter 'Supressão de ruídos' (noise_suppress_filter_v2) to source 'Mic/Aux'
+18:31:32.026: User added filter 'Ganho' (gain_filter) to source 'Mic/Aux'
+18:31:49.793: User added filter 'Limitador' (limiter_filter) to source 'Mic/Aux'
+18:32:35.464: User added filter 'Filtro de ruídos' (noise_gate_filter) to source 'Mic/Aux'
+18:33:21.751: User added filter 'Equalizador de 3 bandas' (basic_eq_filter) to source 'Mic/Aux'
+18:36:59.226: User added filter 'Compressor para cima' (upward_compressor_filter) to source 'Mic/Aux'
+18:37:18.138: User removed filter 'Compressor para cima' (upward_compressor_filter) from source 'Mic/Aux'
+18:39:28.359: [camera-portal] Found device Firefox
+18:39:32.990: [pipewire-camera] Removed device Firefox
+18:49:21.420: [camera-portal] Found device Firefox
+18:50:43.266: pulse-am: Stopped Monitoring in 'alsa_output.pci-0000_07_00.4.analog-stereo'
+18:50:43.266: pulse-am: Got 49356 packets with 59227200 frames
+18:50:43.267: [pipewire-camera] Removed device OBS-Monitor
+18:50:47.565: [pipewire-camera] Removed device Firefox
+18:50:47.591: [camera-portal] Found device Firefox
+18:51:00.653: [pipewire-camera] Removed device Firefox
+18:58:10.632: [camera-portal] Found device Firefox
+19:02:18.353: [camera-portal] Found device Firefox
+19:02:20.788: [pipewire-camera] Removed device Firefox
+19:02:28.734: [camera-portal] Found device Firefox
+19:02:31.167: [pipewire-camera] Removed device Firefox
+19:14:39.872: [pipewire-camera] Removed device kdenlive
+19:14:39.872: [pipewire-camera] Removed device SDL Application
+19:14:56.574: [camera-portal] Found device Kdenlive
+19:14:58.145: [pipewire-camera] Removed device Kdenlive
+19:15:02.388: [camera-portal] Found device SDL Application
+19:27:01.042: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+19:27:01.042: 
+19:54:29.100: [camera-portal] Found device Firefox
+19:54:33.396: [pipewire-camera] Removed device Firefox
+19:54:33.446: [camera-portal] Found device Firefox
+19:54:35.108: [pipewire-camera] Removed device Firefox
+19:54:35.125: [camera-portal] Found device Firefox
+19:54:35.747: [pipewire-camera] Removed device Firefox
+19:54:35.767: [camera-portal] Found device Firefox
+19:57:14.041: [pipewire-camera] Removed device Firefox
+19:57:14.873: [camera-portal] Found device Firefox
+20:06:51.989: [camera-portal] Found device Firefox
+20:06:54.425: [pipewire-camera] Removed device Firefox
+20:07:06.385: [camera-portal] Found device Firefox
+20:07:08.825: [pipewire-camera] Removed device Firefox
+20:09:10.347: [camera-portal] Found device Firefox
+20:09:44.996: [pipewire-camera] Removed device Firefox
+20:09:45.015: [camera-portal] Found device Firefox
+20:10:21.695: [pipewire-camera] Removed device Firefox
+20:33:23.527: adding 21 milliseconds of audio buffering, total audio buffering is now 64 milliseconds (source: Mic/Aux)
+20:33:23.527: 
+21:00:54.224: [camera-portal] Found device Firefox
+21:00:58.983: [pipewire-camera] Removed device Firefox
+21:00:59.000: [camera-portal] Found device Firefox
+21:00:59.871: [pipewire-camera] Removed device Firefox
+21:00:59.929: [camera-portal] Found device Firefox
+21:02:10.534: [pipewire-camera] Removed device Firefox
+21:02:10.572: [camera-portal] Found device Firefox
+21:02:11.387: [pipewire-camera] Removed device Firefox
+21:02:11.411: [camera-portal] Found device Firefox
+21:02:13.507: [pipewire-camera] Removed device Firefox
+21:02:13.533: [camera-portal] Found device Firefox
+21:02:13.533: [pipewire] Error id:17 seq:1188 res:-2 (Arquivo ou diretório inexistente): enum params id:16 (Spa:Enum:ParamId:ProcessLatency) failed
+21:02:14.394: [pipewire-camera] Removed device Firefox
+21:02:14.410: [camera-portal] Found device Firefox
+21:02:15.211: [pipewire-camera] Removed device Firefox
+21:02:15.268: [camera-portal] Found device Firefox
+21:02:16.130: [pipewire-camera] Removed device Firefox
+21:02:16.179: [camera-portal] Found device Firefox
+21:02:16.906: [pipewire-camera] Removed device Firefox
+21:02:16.946: [camera-portal] Found device Firefox
+21:02:58.588: [pipewire-camera] Removed device Firefox
+21:03:18.117: [camera-portal] Found device Firefox
+21:03:20.515: [pipewire-camera] Removed device Firefox
+21:03:20.576: [camera-portal] Found device Firefox
+21:03:21.539: [pipewire-camera] Removed device Firefox
+21:03:21.581: [camera-portal] Found device Firefox
+21:03:35.988: [pipewire-camera] Removed device Firefox
+21:03:36.042: [camera-portal] Found device Firefox
+21:03:37.596: [pipewire-camera] Removed device Firefox
+21:03:37.634: [camera-portal] Found device Firefox
+21:03:40.291: [pipewire-camera] Removed device Firefox
+21:03:40.338: [camera-portal] Found device Firefox
+21:03:42.098: [pipewire-camera] Removed device Firefox
+21:03:42.143: [camera-portal] Found device Firefox
+21:03:45.498: [pipewire-camera] Removed device Firefox
+21:04:43.519: [camera-portal] Found device Firefox
+21:04:50.088: [pipewire-camera] Removed device Firefox
+21:04:50.115: [camera-portal] Found device Firefox
+21:04:50.431: [pipewire-camera] Removed device Firefox
+21:04:50.458: [camera-portal] Found device Firefox
+21:04:50.967: [pipewire-camera] Removed device Firefox
+21:04:50.996: [camera-portal] Found device Firefox
+21:04:50.997: [pipewire] Error id:17 seq:1839 res:-2 (Arquivo ou diretório inexistente): enum params id:16 (Spa:Enum:ParamId:ProcessLatency) failed
+21:04:51.527: [pipewire-camera] Removed device Firefox
+21:04:51.558: [camera-portal] Found device Firefox
+21:04:52.953: [pipewire-camera] Removed device Firefox
+21:04:52.997: [camera-portal] Found device Firefox
+21:04:53.647: [pipewire-camera] Removed device Firefox
+21:04:53.697: [camera-portal] Found device Firefox
+21:04:54.240: [pipewire-camera] Removed device Firefox
+21:04:54.292: [camera-portal] Found device Firefox
+21:04:54.774: [pipewire-camera] Removed device Firefox
+21:04:54.828: [camera-portal] Found device Firefox
+21:04:55.310: [pipewire-camera] Removed device Firefox
+21:04:55.362: [camera-portal] Found device Firefox
+21:04:56.087: [pipewire-camera] Removed device Firefox
+21:04:56.148: [camera-portal] Found device Firefox
+21:04:56.511: [pipewire-camera] Removed device Firefox
+21:04:56.567: [camera-portal] Found device Firefox
+21:04:56.966: [pipewire-camera] Removed device Firefox
+21:04:57.032: [camera-portal] Found device Firefox
+21:04:57.476: [pipewire-camera] Removed device Firefox
+21:04:57.545: [camera-portal] Found device Firefox
+21:04:57.886: [pipewire-camera] Removed device Firefox
+21:04:57.912: [camera-portal] Found device Firefox
+21:04:58.310: [pipewire-camera] Removed device Firefox
+21:04:58.339: [camera-portal] Found device Firefox
+21:04:58.990: [pipewire-camera] Removed device Firefox
+21:04:59.024: [camera-portal] Found device Firefox
+21:04:59.750: [pipewire-camera] Removed device Firefox
+21:04:59.787: [camera-portal] Found device Firefox
+21:05:00.710: [pipewire-camera] Removed device Firefox
+21:05:00.753: [camera-portal] Found device Firefox
+21:05:01.254: [pipewire-camera] Removed device Firefox
+21:05:01.302: [camera-portal] Found device Firefox
+21:05:02.038: [pipewire-camera] Removed device Firefox
+21:05:02.090: [camera-portal] Found device Firefox
+21:05:46.603: [pipewire-camera] Removed device Firefox
+21:06:13.785: [camera-portal] Found device Firefox
+21:06:18.303: [pipewire-camera] Removed device Firefox
+21:06:18.405: [camera-portal] Found device Firefox
+21:06:20.083: [pipewire-camera] Removed device Firefox
+21:06:20.252: [camera-portal] Found device Firefox
+21:06:20.630: [pipewire-camera] Removed device Firefox
+21:06:20.709: [camera-portal] Found device Firefox
+21:07:55.453: [pipewire-camera] Removed device Firefox
+21:07:55.481: [camera-portal] Found device Firefox
+21:07:55.836: [pipewire-camera] Removed device Firefox
+21:07:55.943: [camera-portal] Found device Firefox
+21:07:56.339: [pipewire-camera] Removed device Firefox
+21:07:56.401: [camera-portal] Found device Firefox
+21:07:56.643: [pipewire-camera] Removed device Firefox
+21:07:56.867: [camera-portal] Found device Firefox
+21:07:57.173: [pipewire-camera] Removed device Firefox
+21:07:57.245: [camera-portal] Found device Firefox
+21:07:57.780: [pipewire-camera] Removed device Firefox
+21:07:57.819: [camera-portal] Found device Firefox
+21:07:58.267: [pipewire-camera] Removed device Firefox
+21:07:58.361: [camera-portal] Found device Firefox
+21:07:59.132: [pipewire-camera] Removed device Firefox
+21:07:59.320: [camera-portal] Found device Firefox
+21:08:00.891: [pipewire-camera] Removed device Firefox
+21:08:00.909: [camera-portal] Found device Firefox
+21:08:01.515: [pipewire-camera] Removed device Firefox
+21:08:01.608: [camera-portal] Found device Firefox
+21:08:02.043: [pipewire-camera] Removed device Firefox
+21:08:02.109: [camera-portal] Found device Firefox
+21:08:02.596: [pipewire-camera] Removed device Firefox
+21:08:02.713: [camera-portal] Found device Firefox
+21:08:03.531: [pipewire-camera] Removed device Firefox
+21:08:03.584: [camera-portal] Found device Firefox
+21:08:03.984: [pipewire-camera] Removed device Firefox
+21:08:04.035: [camera-portal] Found device Firefox
+21:08:08.316: [pipewire-camera] Removed device Firefox
+21:08:08.395: [camera-portal] Found device Firefox
+21:08:18.197: [pipewire-camera] Removed device Firefox
+21:08:18.224: [camera-portal] Found device Firefox
+21:08:18.755: [pipewire-camera] Removed device Firefox
+21:08:18.780: [camera-portal] Found device Firefox
+21:08:19.069: [pipewire-camera] Removed device Firefox
+21:08:19.106: [camera-portal] Found device Firefox
+21:08:19.434: [pipewire-camera] Removed device Firefox
+21:08:19.573: [camera-portal] Found device Firefox
+21:08:19.827: [pipewire-camera] Removed device Firefox
+21:08:19.861: [camera-portal] Found device Firefox
+21:08:46.532: [pipewire-camera] Removed device Firefox
+21:08:46.584: [camera-portal] Found device Firefox
+21:08:47.234: [pipewire-camera] Removed device Firefox
+21:08:47.356: [camera-portal] Found device Firefox
+21:08:48.258: [pipewire-camera] Removed device Firefox
+21:08:48.280: [camera-portal] Found device Firefox
+21:08:49.186: [pipewire-camera] Removed device Firefox
+21:08:49.254: [camera-portal] Found device Firefox
+21:09:51.352: [pipewire-camera] Removed device Firefox
+21:09:51.521: [camera-portal] Found device Firefox
+21:09:51.722: [pipewire-camera] Removed device Firefox
+21:09:51.769: [camera-portal] Found device Firefox
+21:09:52.234: [pipewire-camera] Removed device Firefox
+21:09:52.323: [camera-portal] Found device Firefox
+21:09:52.441: [pipewire-camera] Removed device Firefox
+21:09:52.534: [camera-portal] Found device Firefox
+21:09:52.681: [pipewire-camera] Removed device Firefox
+21:09:52.758: [camera-portal] Found device Firefox
+21:09:52.881: [pipewire-camera] Removed device Firefox
+21:09:53.003: [camera-portal] Found device Firefox
+21:09:53.377: [pipewire-camera] Removed device Firefox
+21:09:53.421: [camera-portal] Found device Firefox
+21:09:53.762: [pipewire-camera] Removed device Firefox
+21:09:53.827: [camera-portal] Found device Firefox
+21:09:53.928: [pipewire-camera] Removed device Firefox
+21:09:54.036: [camera-portal] Found device Firefox
+21:09:54.208: [pipewire-camera] Removed device Firefox
+21:09:54.324: [camera-portal] Found device Firefox
+21:09:54.689: [pipewire-camera] Removed device Firefox
+21:09:54.738: [camera-portal] Found device Firefox
+21:09:55.257: [pipewire-camera] Removed device Firefox
+21:09:55.279: [camera-portal] Found device Firefox
+21:09:55.600: [pipewire-camera] Removed device Firefox
+21:09:55.675: [camera-portal] Found device Firefox
+21:09:55.920: [pipewire-camera] Removed device Firefox
+21:09:56.036: [camera-portal] Found device Firefox
+21:09:56.360: [pipewire-camera] Removed device Firefox
+21:09:56.464: [camera-portal] Found device Firefox
+21:09:57.440: [pipewire-camera] Removed device Firefox
+21:09:57.466: [camera-portal] Found device Firefox
+21:09:57.802: [pipewire-camera] Removed device Firefox
+21:09:57.849: [camera-portal] Found device Firefox
+21:09:58.777: [pipewire-camera] Removed device Firefox
+21:09:58.821: [camera-portal] Found device Firefox
+21:09:59.532: [pipewire-camera] Removed device Firefox
+21:09:59.663: [camera-portal] Found device Firefox
+21:09:59.921: [pipewire-camera] Removed device Firefox
+21:10:00.013: [camera-portal] Found device Firefox
+21:10:00.299: [pipewire-camera] Removed device Firefox
+21:10:00.342: [camera-portal] Found device Firefox
+21:10:00.641: [pipewire-camera] Removed device Firefox
+21:10:00.742: [camera-portal] Found device Firefox
+21:10:01.336: [pipewire-camera] Removed device Firefox
+21:10:01.428: [camera-portal] Found device Firefox
+21:10:01.429: [pipewire] Error id:17 seq:4768 res:-2 (Arquivo ou diretório inexistente): enum params id:16 (Spa:Enum:ParamId:ProcessLatency) failed
+21:10:01.809: [pipewire-camera] Removed device Firefox
+21:10:01.947: [camera-portal] Found device Firefox
+21:10:02.193: [pipewire-camera] Removed device Firefox
+21:10:02.279: [camera-portal] Found device Firefox
+21:10:02.409: [pipewire-camera] Removed device Firefox
+21:10:02.642: [camera-portal] Found device Firefox
+21:12:21.974: [camera-portal] Found device Firefox
+21:14:56.033: [camera-portal] Found device Firefox
+21:15:47.335: [pipewire-camera] Removed device Firefox
+21:15:47.350: [camera-portal] Found device Firefox
+21:16:04.744: [pipewire-camera] Removed device Firefox
+21:16:22.005: [camera-portal] Found device Firefox
+21:16:23.355: [pipewire-camera] Removed device Firefox
+21:16:23.418: [camera-portal] Found device Firefox
+21:16:23.859: [pipewire-camera] Removed device Firefox
+21:16:24.027: [camera-portal] Found device Firefox
+21:16:24.331: [pipewire-camera] Removed device Firefox
+21:16:24.439: [camera-portal] Found device Firefox
+21:16:24.937: [pipewire-camera] Removed device Firefox
+21:16:25.072: [camera-portal] Found device Firefox
+21:16:28.370: [pipewire-camera] Removed device Firefox
+21:16:28.446: [camera-portal] Found device Firefox
+21:16:29.777: [pipewire-camera] Removed device Firefox
+21:16:29.944: [camera-portal] Found device Firefox
+21:16:31.257: [pipewire-camera] Removed device Firefox
+21:16:31.466: [camera-portal] Found device Firefox
+21:17:05.282: [pipewire-camera] Removed device Firefox
+21:17:30.457: [camera-portal] Found device Firefox
+21:19:44.632: [pipewire-camera] Removed device Firefox
+21:55:13.022: [camera-portal] Found device Firefox
+21:55:46.455: [pipewire-camera] Removed device Firefox
+21:55:46.519: [camera-portal] Found device Firefox
+21:57:43.155: [camera-portal] Found device Kdenlive
+21:57:44.716: [pipewire-camera] Removed device Kdenlive
+21:58:54.704: [camera-portal] Found device Kdenlive
+21:58:55.969: [pipewire-camera] Removed device SDL Application
+21:58:56.097: [camera-portal] Found device SDL Application
+21:58:56.270: [pipewire-camera] Removed device Kdenlive
+22:03:17.303: [pipewire-camera] Removed device Firefox
+22:04:53.407: [camera-portal] Found device Kdenlive
+22:04:54.964: [pipewire-camera] Removed device Kdenlive
+22:04:59.538: [pipewire-camera] Removed device SDL Application
+22:05:12.631: [camera-portal] Found device SDL Application
+22:05:48.485: [camera-portal] Found device Kdenlive
+22:05:49.782: [pipewire-camera] Removed device SDL Application
+22:05:50.047: [pipewire-camera] Removed device Kdenlive
+22:05:51.979: [camera-portal] Found device SDL Application
+22:12:43.135: [camera-portal] Found device Kdenlive
+22:12:44.700: [pipewire-camera] Removed device Kdenlive
+22:12:44.786: [pipewire-camera] Removed device SDL Application
+22:12:54.329: [camera-portal] Found device SDL Application
+22:13:12.321: [camera-portal] Found device Kdenlive
+22:13:13.885: [pipewire-camera] Removed device Kdenlive
+22:13:14.028: [pipewire-camera] Removed device SDL Application
+22:13:16.427: [camera-portal] Found device SDL Application
+22:28:35.778: [camera-portal] Found device Kdenlive
+22:28:37.336: [pipewire-camera] Removed device Kdenlive
+22:34:23.884: [camera-portal] Found device Kdenlive
+22:34:25.363: [pipewire-camera] Removed device Kdenlive
+22:39:22.932: adding 149 milliseconds of audio buffering, total audio buffering is now 213 milliseconds (source: Mic/Aux)
+22:39:22.932: 
+23:02:40.589: adding 256 milliseconds of audio buffering, total audio buffering is now 469 milliseconds (source: Mic/Aux)
+23:02:40.589: 
+23:02:41.402: [pipewire-camera] Removed device SDL Application
+23:02:53.472: [camera-portal] Found device Kdenlive
+23:02:55.046: [pipewire-camera] Removed device Kdenlive
+23:02:57.123: [camera-portal] Found device Kdenlive
+23:02:58.694: [pipewire-camera] Removed device Kdenlive
+23:03:19.855: [camera-portal] Found device SDL Application
+23:22:50.993: [camera-portal] Found device Kdenlive
+23:22:52.121: [pipewire-camera] Removed device SDL Application
+23:22:52.480: [camera-portal] Found device SDL Application
+23:22:52.549: [pipewire-camera] Removed device Kdenlive
+23:27:29.357: [camera-portal] Found device Kdenlive
+23:27:30.677: [pipewire-camera] Removed device Kdenlive
+23:27:58.094: [camera-portal] Found device Kdenlive
+23:27:59.413: [pipewire-camera] Removed device Kdenlive
+23:31:49.423: [camera-portal] Found device Kdenlive
+23:31:50.735: [pipewire-camera] Removed device Kdenlive
+23:33:34.236: [camera-portal] Found device Kdenlive
+23:33:35.558: [pipewire-camera] Removed device Kdenlive
+23:34:09.455: [camera-portal] Found device Kdenlive
+23:34:09.455: [pipewire] Error id:13 seq:6236 res:-2 (Arquivo ou diretório inexistente): enum params id:16 (Spa:Enum:ParamId:ProcessLatency) failed
+23:34:10.769: [pipewire-camera] Removed device Kdenlive
+23:34:53.611: [camera-portal] Found device Kdenlive
+23:34:53.611: [pipewire] Error id:13 seq:6269 res:-2 (Arquivo ou diretório inexistente): enum params id:16 (Spa:Enum:ParamId:ProcessLatency) failed
+23:34:54.930: [pipewire-camera] Removed device Kdenlive
+23:35:20.191: [camera-portal] Found device Kdenlive
+23:35:20.192: [pipewire] Error id:13 seq:6302 res:-2 (Arquivo ou diretório inexistente): enum params id:16 (Spa:Enum:ParamId:ProcessLatency) failed
+23:35:21.512: [pipewire-camera] Removed device Kdenlive
+23:36:01.065: [camera-portal] Found device Kdenlive
+23:36:02.387: [pipewire-camera] Removed device Kdenlive
+23:36:52.862: [camera-portal] Found device Kdenlive
+23:36:54.185: [pipewire-camera] Removed device Kdenlive
+23:37:33.251: [camera-portal] Found device Kdenlive
+23:37:34.570: [pipewire-camera] Removed device Kdenlive
+23:37:55.012: [camera-portal] Found device Kdenlive
+23:37:56.331: [pipewire-camera] Removed device Kdenlive
+23:39:23.070: [camera-portal] Found device Kdenlive
+23:39:24.385: [pipewire-camera] Removed device Kdenlive
+23:40:21.570: [camera-portal] Found device Kdenlive
+23:40:22.893: [pipewire-camera] Removed device Kdenlive
+23:41:27.501: [camera-portal] Found device Kdenlive
+23:41:28.814: [pipewire-camera] Removed device Kdenlive
+23:41:52.302: [camera-portal] Found device Kdenlive
+23:41:53.625: [pipewire-camera] Removed device Kdenlive
+23:44:14.189: [camera-portal] Found device Firefox
+23:44:14.327: [camera-portal] Found device Firefox
+23:44:14.352: [pipewire-camera] Removed device Firefox
+23:45:02.731: [camera-portal] Found device Firefox
+23:45:02.741: [pipewire-camera] Removed device Firefox
+23:45:02.750: [camera-portal] Found device Firefox
+23:45:03.579: [pipewire-camera] Removed device Firefox
+23:45:06.332: [camera-portal] Found device Firefox
+23:52:24.040: [camera-portal] Found device Chromium
+23:52:38.039: [pipewire-camera] Removed device Chromium
+23:52:40.279: ==== Shutting down ==================================================
+23:52:40.290: pulse-input: Stopped recording from 'alsa_output.pci-0000_07_00.4.analog-stereo.monitor'
+23:52:40.290: pulse-input: Got 775194 packets with 930232800 frames
+23:52:40.291: pulse-input: Stopped recording from 'alsa_input.pci-0000_07_00.4.analog-stereo'
+23:52:40.291: pulse-input: Got 775195 packets with 930234000 frames
+23:52:40.291: [pipewire] Stream 0x7f5f4c004e20 state: "paused" (error: none)
+23:52:40.291: [pipewire] Stream 0x7f5f4c004e20 state: "unconnected" (error: none)
+23:52:40.293: [pipewire] Stream 0x55f432aa3d60 state: "paused" (error: none)
+23:52:40.293: [pipewire] Stream 0x55f432aa3d60 state: "unconnected" (error: none)
+23:52:40.296: pulse-input: Stopped recording from 'alsa_output.pci-0000_07_00.4.analog-stereo.monitor'
+23:52:40.296: pulse-input: Got 774687 packets with 929624400 frames
+23:52:40.296: Deduplication logic stopped.
+23:52:40.298: [pipewire-camera] Removed device obs
+23:52:40.298: [pipewire-camera] Removed device xdg-desktop-portal-hyprland
+23:52:40.299: [pipewire-camera] Removed device OBS
+23:52:40.308: All scene data cleared
+23:52:40.308: ------------------------------------------------
+23:52:40.312: Tried to call obs_frontend_remove_event_callback with no callbacks!
+23:52:40.361: [obs-websocket] [obs_module_unload] Shutting down...
+23:52:40.362: Tried to call obs_frontend_remove_event_callback with no callbacks!
+23:52:40.362: [obs-websocket] [obs_module_unload] Finished shutting down.
+23:52:40.395: [Scripting] Total detached callbacks: 0
+23:52:40.395: Freeing OBS context data
+23:52:40.424: == Profiler Results =============================
+23:52:40.424: run_program_init: 511.983 ms
+23:52:40.424:  ┣OBSApp::AppInit: 20.797 ms
+23:52:40.424:  ┃ ┗OBSApp::InitLocale: 3.839 ms
+23:52:40.424:  ┗OBSApp::OBSInit: 448.282 ms
+23:52:40.424:    ┣obs_startup: 1.626 ms
+23:52:40.424:    ┗OBSBasic::OBSInit: 412.723 ms
+23:52:40.424:      ┣OBSBasic::InitBasicConfig: 0.939 ms
+23:52:40.424:      ┣OBSBasic::ResetAudio: 0.229 ms
+23:52:40.424:      ┣OBSBasic::ResetVideo: 108.501 ms
+23:52:40.424:      ┃ ┗obs_init_graphics: 105.342 ms
+23:52:40.424:      ┃   ┗shader compilation: 41.799 ms
+23:52:40.424:      ┣OBSBasic::InitOBSCallbacks: 0.003 ms
+23:52:40.424:      ┣OBSBasic::InitHotkeys: 0.018 ms
+23:52:40.424:      ┣obs_load_all_modules2: 215.027 ms
+23:52:40.424:      ┃ ┣obs_init_module(decklink-captions.so): 0 ms
+23:52:40.424:      ┃ ┣obs_init_module(decklink-output-ui.so): 0 ms
+23:52:40.424:      ┃ ┣obs_init_module(decklink.so): 0.071 ms
+23:52:40.424:      ┃ ┣obs_init_module(frontend-tools.so): 86.216 ms
+23:52:40.424:      ┃ ┣obs_init_module(image-source.so): 0.003 ms
+23:52:40.424:      ┃ ┣obs_init_module(linux-alsa.so): 0.001 ms
+23:52:40.424:      ┃ ┣obs_init_module(linux-capture.so): 0 ms
+23:52:40.424:      ┃ ┣obs_init_module(linux-jack.so): 0.001 ms
+23:52:40.424:      ┃ ┣obs_init_module(linux-pipewire.so): 13.153 ms
+23:52:40.424:      ┃ ┣obs_init_module(linux-pulseaudio.so): 0.001 ms
+23:52:40.424:      ┃ ┣obs_init_module(linux-v4l2.so): 6.649 ms
+23:52:40.424:      ┃ ┣obs_init_module(obs-ffmpeg.so): 12.827 ms
+23:52:40.424:      ┃ ┣obs_init_module(obs-filters.so): 0.011 ms
+23:52:40.424:      ┃ ┣obs_init_module(obs-libfdk.so): 0 ms
+23:52:40.424:      ┃ ┣obs_init_module(obs-nvenc.so): 0.067 ms
+23:52:40.426:      ┃ ┃ ┗nvenc_check: 0.057 ms
+23:52:40.426:      ┃ ┣obs_init_module(obs-outputs.so): 0.002 ms
+23:52:40.426:      ┃ ┣obs_init_module(obs-qsv11.so): 6.934 ms
+23:52:40.426:      ┃ ┣obs_init_module(obs-transitions.so): 0.003 ms
+23:52:40.426:      ┃ ┣obs_init_module(obs-vst.so): 0.001 ms
+23:52:40.426:      ┃ ┣obs_init_module(obs-webrtc.so): 0.002 ms
+23:52:40.426:      ┃ ┣obs_init_module(obs-websocket.so): 5.593 ms
+23:52:40.426:      ┃ ┣obs_init_module(obs-x264.so): 0.001 ms
+23:52:40.426:      ┃ ┣obs_init_module(rtmp-services.so): 0.847 ms
+23:52:40.426:      ┃ ┗obs_init_module(text-freetype2.so): 0.008 ms
+23:52:40.426:      ┣OBSBasic::InitService: 1.626 ms
+23:52:40.426:      ┣OBSBasic::ResetOutputs: 0.175 ms
+23:52:40.426:      ┣OBSBasic::CreateHotkeys: 0.028 ms
+23:52:40.426:      ┣OBSBasic::InitPrimitives: 0.431 ms
+23:52:40.426:      ┗OBSBasic::Load: 45.32 ms
+23:52:40.426: obs_hotkey_thread(25 ms): min=0 ms, median=0 ms, max=3.313 ms, 99th percentile=0.001 ms, 100% below 25 ms
+23:52:40.426: audio_thread(Audio): min=0.003 ms, median=0.03 ms, max=54.5 ms, 99th percentile=0.096 ms
+23:52:40.426: obs_graphics_thread(16.6667 ms): min=0.079 ms, median=0.15 ms, max=734.867 ms, 99th percentile=0.37 ms, 99.9997% below 16.667 ms
+23:52:40.426:  ┣tick_sources: min=0 ms, median=0.003 ms, max=5.451 ms, 99th percentile=0.014 ms
+23:52:40.426:  ┣output_frame: min=0.048 ms, median=0.07 ms, max=37.922 ms, 99th percentile=0.211 ms
+23:52:40.426:  ┃ ┗gs_context(video->graphics): min=0.048 ms, median=0.07 ms, max=37.921 ms, 99th percentile=0.211 ms
+23:52:40.426:  ┃   ┣render_video: min=0.009 ms, median=0.023 ms, max=33.158 ms, 99th percentile=0.083 ms
+23:52:40.426:  ┃   ┃ ┗render_main_texture: min=0.008 ms, median=0.021 ms, max=25.562 ms, 99th percentile=0.078 ms
+23:52:40.426:  ┃   ┗gs_flush: min=0.001 ms, median=0.043 ms, max=4.75 ms, 99th percentile=0.119 ms
+23:52:40.426:  ┗render_displays: min=0.002 ms, median=0.069 ms, max=724.639 ms, 99th percentile=0.129 ms
+23:52:40.426: =================================================
+23:52:40.426: == Profiler Time Between Calls ==================
+23:52:40.426: obs_hotkey_thread(25 ms): min=25.003 ms, median=25.007 ms, max=42.798 ms, 99.8987% within ±2% of 25 ms (0% lower, 0.101306% higher)
+23:52:40.426: obs_graphics_thread(16.6667 ms): min=2.141 ms, median=16.667 ms, max=734.925 ms, 99.7684% within ±2% of 16.667 ms (0.116788% lower, 0.11481% higher)
+23:52:40.426: =================================================
+23:52:40.432: Number of memory leaks: 0
